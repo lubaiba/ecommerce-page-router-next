@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ProductsService } from "../services/product-service";
+import { ProductsService } from "@/components/services/product-service";
 import Addtocart from "@/components/addtocart/AddToCart";
 import { useState, useEffect } from "react";
 
