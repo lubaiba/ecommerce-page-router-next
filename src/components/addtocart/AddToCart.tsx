@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Link from 'next/link';
-import { ProductsService } from '@/pages/services/product-service';
+import { ProductsService } from '../services/product-service';
 
 export default function Addtocart(props:any) {
     const [cart,setAddCart]=useState({});
