@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { useState,useEffect } from 'react';
-import { ProductsService } from '../services/product-service';
+import { ProductsService } from '@/components/services/product-service';
 
 export default function Cart() { 
   var footer = {
