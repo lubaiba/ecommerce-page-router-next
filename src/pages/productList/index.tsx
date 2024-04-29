@@ -1,6 +1,6 @@
 'use client'
-import { ProductsDataType } from '../services/classes';
-import { ProductsService } from '../services/product-service';
+import { ProductsService} from '@/components/services/product-service';
+import { ProductsDataType } from '@/components/services/classes';
 import { useEffect, useState } from 'react';
 import ProductFilter from '@/components/filteredProducts/FilteredProducts';
 import ProductCard from '@/components/productCard/ProductCard';
