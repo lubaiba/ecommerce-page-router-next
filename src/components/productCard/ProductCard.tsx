@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { ProductsService } from "@/pages/services/product-service";
+import { ProductsService } from '../services/product-service';
 import { ProductsDataType } from '@/pages/services/classes';
 import { useState } from 'react';
 import { Route } from 'next';
