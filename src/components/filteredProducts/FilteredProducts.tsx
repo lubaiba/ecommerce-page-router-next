@@ -1,4 +1,4 @@
-import { ProductsService } from "@/pages/services/product-service";
+import { ProductsService } from '../services/product-service';
 import React, { useEffect, useState } from "react";
 
 export default function ProductFilter(props: any) {
