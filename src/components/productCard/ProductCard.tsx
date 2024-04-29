@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { ProductsService } from '../services/product-service';
-import { ProductsDataType } from '@/pages/services/classes';
+import { ProductsDataType } from '../services/classes';
 import { useState } from 'react';
 import { Route } from 'next';
 const ProductCard = (props:any) => {  
